@@ -1,8 +1,4 @@
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
-from __future__ import unicode_literals
-
+# coding: utf-8
 import argparse
 import numpy as np
 import os
@@ -156,7 +152,7 @@ if __name__ == "__main__":
     )
     parser.add_argument('--n_his', type=int, default=10)
     parser.add_argument('--n_pred', type=int, default=3)
-    parser.add_argument('--city', type=str, default='shenzhen')
+    parser.add_argument('--city', type=str, default='hangzhou')
     parser.add_argument('--interval', type=int, default=10)
     args = parser.parse_args()
 

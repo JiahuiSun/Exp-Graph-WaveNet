@@ -130,6 +130,8 @@ dmypy.json
 
 *.log
 *.out
+*.npy
+*.pth
 output/
 .vscode/
 result/

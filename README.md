@@ -1,3 +1,15 @@
+# My experiment notes
+
+## 生成实验数据
+
+- generate_training_data.py，代码会将数据格式变成(B, T, V, F)的四维tensor，放到final data下面
+  - n_his，用多少个过去的点预测
+  - n_pred，预测未来多少个点
+
+## 跑实验
+
+- train.py，实验结果，包括log和图像，都在result下面
+
 # Graph WaveNet for Deep Spatial-Temporal Graph Modeling
 
 This is the original pytorch implementation of Graph WaveNet in the following paper: 
